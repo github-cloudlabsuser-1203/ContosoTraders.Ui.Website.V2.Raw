@@ -17,4 +17,3 @@ describe('WelcomePopup', () => {
     render(<WelcomePopup />);
     const closeButton = screen.getByRole('button', { name: /close/i });
     fireEvent.click(closeButton);
-    // Assuming the popup is removed from the DOM after
